@@ -158,17 +158,25 @@ Main Dashboard
 Total Investments = SUM(annual_data[Value])
 Average Reserve Assets = AVERAGE(annual_data[Value])
 
-Annual Return
+
+#Annual Return
+
 Yearly Change = 
     CALCULATE(
         SUM(annual_data[Value]),
         PREVIOUSYEAR(annual_data[Year])
     )
-Quarterly Report
+
+
+#Quarterly Report
+
 Quarterly Change = 
     SUM(quarterly_data[Value]) 
     - CALCULATE(SUM(quarterly_data[Value]), PREVIOUSQUARTER(quarterly_data[Quarter]))
-Country Report
+
+
+#Country Report
+
 Selected Country Name = SELECTEDVALUE(countries[Country])
 Total Country Investment = CALCULATE(SUM(annual_data[Value]), FILTER(countries, countries[Country] = SELECTEDVALUE(countries[Country])))
 
