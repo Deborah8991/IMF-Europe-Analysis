@@ -114,13 +114,65 @@ The table below shows an example of long metric names that were renamed for simp
 ---
 
 ## **SQL Scripts**
-(Refer to the [SQL Scripts](#sql-scripts) section above for the database setup.)
+
+```SQL
+-- Create countries table
+CREATE TABLE countries (
+    Country_ID SERIAL PRIMARY KEY,
+    Country VARCHAR(50) NOT NULL
+);
+
+-- Create annual_data table
+CREATE TABLE annual_data (
+    Annual_ID SERIAL PRIMARY KEY,
+    Country_ID INT REFERENCES countries(Country_ID),
+    Metric VARCHAR(100) NOT NULL,
+    Year INT NOT NULL,
+    Value DECIMAL NOT NULL
+);
+
+-- Create quarterly_data table
+CREATE TABLE quarterly_data (
+    Quarter_ID SERIAL PRIMARY KEY,
+    Country_ID INT REFERENCES countries(Country_ID),
+    Metric VARCHAR(100) NOT NULL,
+    Quarter VARCHAR(10) NOT NULL,
+    Value DECIMAL NOT NULL
+);
+
+-- Insert data into countries table
+INSERT INTO countries (Country)
+VALUES
+('Germany'),
+('Austria'),
+('Switzerland'),
+('Luxembourg'),
+('Spain');
+```
 
 ---
 
 ## **DAX Formulas**
-(Refer to the [DAX Formulas](#dax-formulas) section above for the calculated measures.)
+``` DAX
+Main Dashboard
+Total Investments = SUM(annual_data[Value])
+Average Reserve Assets = AVERAGE(annual_data[Value])
 
+Annual Return
+Yearly Change = 
+    CALCULATE(
+        SUM(annual_data[Value]),
+        PREVIOUSYEAR(annual_data[Year])
+    )
+Quarterly Report
+Quarterly Change = 
+    SUM(quarterly_data[Value]) 
+    - CALCULATE(SUM(quarterly_data[Value]), PREVIOUSQUARTER(quarterly_data[Quarter]))
+Country Report
+Selected Country Name = SELECTEDVALUE(countries[Country])
+Total Country Investment = CALCULATE(SUM(annual_data[Value]), FILTER(countries, countries[Country] = SELECTEDVALUE(countries[Country])))
+
+```
 ---
 
 ## **Resources**
