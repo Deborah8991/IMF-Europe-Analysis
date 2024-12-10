@@ -40,6 +40,8 @@ Collaborate with backend developers to extract data from the IMF, preprocess it,
   - `countries`  
   - `annual_data`  
   - `quarterly_data`  
+- The ERD
+(The Photo of the ERD will be here)
 
 ### **2. Database Integration with Power BI**
 - Imported data into Power BI directly from the PostgreSQL database.  
