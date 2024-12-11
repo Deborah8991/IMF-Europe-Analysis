@@ -17,7 +17,7 @@
 
 - ## Project by Group 5
   
-|Contributors | Track |
+|Contributors (LinkedIn)| Track |
 |-------------|-------|
 |[Ifeka Odira Hillary](https://www.linkedin.com/in/odira-ifeka/) | Data Analysis|
 |[Deborah Abosede](https://www.linkedin.com/in/deborah-abosede-91b282296/)| Data Analysis|
