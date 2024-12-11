@@ -3,16 +3,17 @@
 ---
 
 ### **Table of Contents**
-1. [Objective](#objective)  
-2. [Tools and Technologies Used](#tools-and-technologies-used)  
-3. [Steps Completed](#steps-completed)  
-4. [Example of Preprocessed Data](#example-of-preprocessed-data)  
-5. [Challenges and Solutions](#challenges-and-solutions)  
-6. [Results and Findings](#results-and-findings)  
-7. [Deliverables](#deliverables)  
-8. [SQL Scripts](#sql-scripts)  
-9. [DAX Formulas](#dax-formulas)  
-10. [Resources](#resources)  
+1. [Project by Group 5](#project-by-group-5)
+2. [Objective](#objective)  
+3. [Tools and Technologies Used](#tools-and-technologies-used)  
+4. [Steps Completed](#steps-completed)  
+5. [Example of Preprocessed Data](#example-of-preprocessed-data)  
+6. [Challenges and Solutions](#challenges-and-solutions)  
+7. [Results and Findings](#results-and-findings)  
+8. [Deliverables](#deliverables)  
+9. [SQL Scripts](#sql-scripts)  
+10. [DAX Formulas](#dax-formulas)  
+11. [Resources](#resources)  
 
 - ## Project by Group 5
   
