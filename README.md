@@ -14,7 +14,17 @@
 9. [DAX Formulas](#dax-formulas)  
 10. [Resources](#resources)  
 
----
+- ## Project by Group 5
+  
+|Contributors | Track |
+|-------------|-------|
+|[Ifeka Odira Hillary](https://www.linkedin.com/in/odira-ifeka/) | Data Analysis|
+|[Deborah Abosede](https://www.linkedin.com/in/deborah-abosede-91b282296/)| Data Analysis|
+|[Convenenant Lenu](https://www.linkedin.com/in/convenantlenu/) | Data Analysis|
+|[Dr Isaac Israel](https://www.linkedin.com/in/samuel-israel-90893b228/) | Data Analysis/ PR|
+|Melvind-P |Backend Developer|
+|Kenechukwu | Backend Developer|
+
 
 ## **Objective**
 Collaborate with backend developers to extract data from the IMF, preprocess it, analyze historical trends, and create interactive Power BI dashboards to visualize insights.  
