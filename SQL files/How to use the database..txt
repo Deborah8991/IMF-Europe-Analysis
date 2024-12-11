@@ -13,8 +13,10 @@ ENTER.
 Refresh the database then run "SELECT * FROM annual_data" to see the annual data table. "quarterly_data" for quarterly data.
 
 Viola!
-
-
+
 
 Thanks.
 Ifeka Odira Hillary (MistaOD) Data Analyst
+LinkedIn: linkedin.com/in/odira-ifeka
+
+
