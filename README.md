@@ -18,6 +18,9 @@
 
 ## **Objective**
 Collaborate with backend developers to extract data from the IMF, preprocess it, analyze historical trends, and create interactive Power BI dashboards to visualize insights.  
+## Dashbaord
+
+![Main Dashboard](https://github.com/user-attachments/assets/afa6bec4-6cdf-4242-b0b1-31511c2836fd)
 
 ---
 
@@ -39,9 +42,10 @@ Collaborate with backend developers to extract data from the IMF, preprocess it,
 - Database schema includes three tables:  
   - `countries`  
   - `annual_data`  
-  - `quarterly_data`  
-- The ERD
-(The Photo of the ERD will be here) Draw.io ERD.jpg
+  - `quarterly_data`
+   
+-  PostGreSQL ERD
+ ![ERD DIAGRAM pgerd](https://github.com/user-attachments/assets/9bdd23e8-3fea-4dd2-8b41-93b4879b86b2)
 
 ### **2. Database Integration with Power BI**
 - Imported data into Power BI directly from the PostgreSQL database.  
@@ -186,6 +190,7 @@ Total Country Investment = CALCULATE(SUM(annual_data[Value]), FILTER(countries, 
 ---
 
 ## **Resources**
+- [InternPulse](https://www.internpulse.com/)
 - [IMF Data Repository](https://www.imf.org/en/Data)  
 - [Draw.io](https://app.diagrams.net/)  
 - [Power BI](https://powerbi.microsoft.com/)  
