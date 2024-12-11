@@ -1,15 +1,14 @@
 How to use the database.
 
 1. Create the database "backup" in PostgreSQL
-2. RightClick and select restore
-
+2. RightClick and select "Restore"
 
 3. In the dialogue box:-
-
 Format -> Custom or Tar
-FileName -> Select the database file where you saved it
+FileName -> Select the database file from the folder where you saved it
 Number of Jobs -> [Leave it Blank]
 Role Name -> Postgres
+ENTER.
 
 Refresh the database then run "SELECT * FROM annual_data" to see the annual data table. "quarterly_data" for quarterly data.
 
