@@ -1,5 +1,5 @@
 ## **IMF Data Analysis and Visualization Project**
-
+![Main Dashboard](https://github.com/user-attachments/assets/afa6bec4-6cdf-4242-b0b1-31511c2836fd)
 ---
 
 ### **Table of Contents**
@@ -18,9 +18,8 @@
 
 ## **Objective**
 Collaborate with backend developers to extract data from the IMF, preprocess it, analyze historical trends, and create interactive Power BI dashboards to visualize insights.  
-## Dashbaord
-
-![Main Dashboard](https://github.com/user-attachments/assets/afa6bec4-6cdf-4242-b0b1-31511c2836fd)
+### Countries Dashboard
+![Countries Dashboard](https://github.com/user-attachments/assets/dc0b3745-ff0d-4548-837b-97c0e2816983)
 
 ---
 
