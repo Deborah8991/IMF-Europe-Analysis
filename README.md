@@ -40,8 +40,10 @@ Collaborate with backend developers to extract data from the IMF, preprocess it,
 - **SQL**: For querying and transforming the dataset.  
 - **Power Query**: For preprocessing and cleaning the data within Power BI.  
 - **Draw.io**: For creating the Entity Relationship Diagram (ERD).  
-- **ChatGPT**: For guidance and collaboration during the project.  
+- **ChatGPT**: For guidance and collaboration during the project.
+---
 
+Draw.io ERD file:///C:/Users/HomePC/Downloads/IMF.drawio.html
 ---
 
 ## **Steps Completed**
