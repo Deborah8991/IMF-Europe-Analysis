@@ -43,9 +43,6 @@ Collaborate with backend developers to extract data from the IMF, preprocess it,
 - **ChatGPT**: For guidance and collaboration during the project.
 ---
 
-Draw.io ERD file:///C:/Users/HomePC/Downloads/IMF.drawio.html
----
-
 ## **Steps Completed**
 
 ### **1. Data Extraction and Database Setup**
