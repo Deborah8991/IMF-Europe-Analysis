@@ -22,7 +22,7 @@
 |[Ifeka Odira Hillary](https://www.linkedin.com/in/odira-ifeka/) | Data Analysis|
 |[Deborah Abosede](https://www.linkedin.com/in/deborah-abosede-91b282296/)| Data Analysis|
 |[Convenenant Lenu](https://www.linkedin.com/in/convenantlenu/) | Data Analysis|
-|[Dr Isaac Israel](https://www.linkedin.com/in/samuel-israel-90893b228/) | Data Analysis/ PR|
+|[Dr Samuel Israel](https://www.linkedin.com/in/samuel-israel-90893b228/) | Data Analysis/ PR|
 |[Ajayi Adeboye](https://www.linkedin.com/in/adeboye-melvin/) |Backend Development|
 |[Kenechukwu Okolie](https://www.linkedin.com/in/kencas/)| Backend Development|
 
